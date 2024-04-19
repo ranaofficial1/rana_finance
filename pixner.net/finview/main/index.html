@@ -9,11 +9,7 @@
     <!-- #favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <!-- #title -->
-    <title>RANA FINANCE - Financial Loan Website</title>
-    <!-- #keywords -->
-    <meta name="keywords" content="FINVIEW, Financial Loan, Financial Loan Review and Comparison">
-    <!-- #description -->
-    <meta name="description" content="FINVIEW HTML5 Template">
+    <title>RANA FINANCE - Financial Loan</title>
 
     <!--  css dependencies start  -->
     <!-- bootstrap five css -->
@@ -57,19 +53,20 @@
                             <div class="main-menu index-page">
                                 <ul class="navbar-nav mb-lg-0 mx-auto">
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Home </a>
+                                        <a class="nav-link" href="#"> Home </a>
                                     </li> 
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Loan Services </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="loan-reviews.html">Perosnal Loan</a></li>
-                                            <li><a class="dropdown-item" href="loan-reviews-details.html">Bussiness Loan</a></li>
-                                            <li><a class="dropdown-item" href="loan-reviews-details.html">Home Loan</a></li>
-
+                                            <li><a class="dropdown-item" href="loan-reviews.html">Bussiness Loan</a></li>
+                                            <li><a class="dropdown-item" href="loan-reviews.html">Home Loan</a></li>
+                                            <li><a class="dropdown-item" href="loan-reviews.html">Property Loan</a></li>
+                                            <li><a class="dropdown-item" href="loan-reviews.html">Mortgage Loan</a></li>
                                         </ul>
                                     </li> 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="loan-comparison.html">About Us</a>
+                                        <a class="nav-link" href="#about-section">About Us</a>
                                     </li>
                                    
                                     <li class="nav-item">
@@ -105,21 +102,9 @@
                                 </ul>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_link" href="loan-comparison.html">About us</a>
+                                <a class="menu_link" href="#about-section">About us</a>
                             </li>
-                            <!-- <li class="menu_item dropdown">
-                                <a class="menu_link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about.html">about us</a></li>
-                                    <li><a class="dropdown-item" href="service.html">service</a></li>
-                                    <li><a class="dropdown-item" href="service-details.html">service details</a></li>
-                                    <li><a class="dropdown-item" href="blog.html">blog</a></li>
-                                    <li><a class="dropdown-item" href="blog-details.html">blog Details</a></li>
-                                    <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
-                                    <li><a class="dropdown-item" href="sign-up.html">sign up</a></li>
-                                    <li><a class="dropdown-item" href="error.html">404 Error Page</a></li>
-                                </ul>
-                            </li> -->
+                            
                             <li class="menu_item">
                                 <a class="menu_link" href="contact.html">contact us</a>
                             </li>
@@ -184,8 +169,8 @@
                         </h1>
                         <p class="section__content-text wow fadeInDown" data-wow-duration="0.8s">Welcome to Rana Finance, your trusted resource for financial loan. Our dedicated team of experts analyzes various loan</p>
                         <div class="btn-group mt_40 wow fadeInUp" data-wow-duration="0.8s">
-                            <a href="about.html" class="btn_theme btn_theme_active">About us<i class="bi bi-arrow-up-right"></i><span></span></a>
-                            <a href="#calculator" class="btn_theme">Contact Us<i class="bi bi-arrow-up-right"></i><span></span></a>
+                            <a href="#about-section" class="btn_theme btn_theme_active">About us<i class="bi bi-arrow-up-right"></i><span></span></a>
+                            <a href="./contact.html" class="btn_theme">Contact Us<i class="bi bi-arrow-up-right"></i><span></span></a>
 
                         </div>
                     </div>
@@ -269,6 +254,34 @@
                                 <a href="service-details.html" class="btn_theme social_box btn_bg_white"><i class="bi bi-arrow-up-right"></i><span></span></a>
                             </div>
                         </div>
+                        <div class="card card--custom">
+                            <div class="card__icon">
+                                <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M35.2188 22.6406H31.1866C30.2428 22.6564 30.2407 24.0616 31.1866 24.0781H35.2188C36.8043 24.0781 38.0938 25.3676 38.0938 26.9531V32.7031H33.0625C32.8719 32.7031 32.6891 32.7788 32.5543 32.9136C32.4195 33.0484 32.3438 33.2313 32.3438 33.4219V34.8594C32.2999 36.7518 29.5191 36.7583 29.4688 34.8594V33.4219C29.4688 33.2313 29.393 33.0484 29.2582 32.9136C29.1234 32.7788 28.9406 32.7031 28.75 32.7031H23.7188C23.7029 31.758 22.2971 31.7587 22.2812 32.7031H17.9688C18.4122 27.9227 11.7774 27.9277 12.2188 32.7031H7.90625V26.9531C7.90625 25.3676 9.19569 24.0781 10.7812 24.0781H14.8134C15.0041 24.0781 15.1869 24.0024 15.3217 23.8676C15.4565 23.7328 15.5322 23.55 15.5322 23.3594C15.5322 23.1688 15.4565 22.9859 15.3217 22.8511C15.1869 22.7163 15.0041 22.6406 14.8134 22.6406H10.7812C8.40291 22.6406 6.46875 24.5748 6.46875 26.9531V39.8906C6.46875 42.269 8.40291 44.2031 10.7812 44.2031H35.2188C37.5971 44.2031 39.5312 42.269 39.5312 39.8906V26.9531C39.5312 24.5748 37.5971 22.6406 35.2188 22.6406ZM22.2812 42.7656H10.7812C9.19569 42.7656 7.90625 41.4762 7.90625 39.8906V34.1406H12.9375C13.1281 34.1406 13.3109 34.0649 13.4457 33.9301C13.5805 33.7953 13.6562 33.6125 13.6562 33.4219V31.9844C13.703 30.0912 16.4845 30.0876 16.5312 31.9844V33.4219C16.5312 33.6125 16.607 33.7953 16.7418 33.9301C16.8766 34.0649 17.0594 34.1406 17.25 34.1406H22.2812V35.5781C17.5008 35.1397 17.5052 41.7738 22.2812 41.3281V42.7656ZM38.0938 39.8906C38.0938 41.4762 36.8043 42.7656 35.2188 42.7656H23.7188V40.6094C23.7188 40.4188 23.643 40.2359 23.5082 40.1011C23.3734 39.9663 23.1906 39.8906 23 39.8906H21.5625C20.7862 39.9086 20.1106 39.2222 20.125 38.4531C20.125 37.6603 20.7697 37.0156 21.5625 37.0156H23C23.1906 37.0156 23.3734 36.9399 23.5082 36.8051C23.643 36.6703 23.7188 36.4875 23.7188 36.2969V34.1406H28.0312C27.5943 38.9232 34.2276 38.9167 33.7812 34.1406H38.0938V39.8906Z" fill="#074C3E"/>
+                                    <path d="M16.675 19.6815C15.5883 20.5491 15.5343 22.4307 16.5729 23.3594C14.9637 24.8472 16.1115 27.72 18.3281 27.6719H19.4062C19.5759 32.43 26.4263 32.4257 26.5937 27.6719H27.6719C29.8892 27.7207 31.0356 24.8472 29.4271 23.3594C30.4657 22.43 30.4117 20.5491 29.3243 19.6815C36.657 13.7971 32.4307 1.79616 23 1.79688C13.57 1.79616 9.34375 13.7986 16.6764 19.6815H16.675ZM23 29.8281C21.8112 29.8281 20.8437 28.8607 20.8437 27.6719H25.1562C25.1562 28.8607 24.1888 29.8281 23 29.8281ZM27.6719 26.2344H18.3281C16.9143 26.2099 16.9093 24.1033 18.3281 24.0781H27.6719C29.0857 24.1026 29.0907 26.2092 27.6719 26.2344ZM27.6719 22.6406H18.3281C16.9143 22.6162 16.9093 20.5095 18.3281 20.4844H27.6719C29.0857 20.5088 29.0907 22.6155 27.6719 22.6406ZM21.2146 14.3592C22.1346 14.8451 23.8647 14.8451 24.7847 14.3642L23.8488 19.0469H22.1512L21.2146 14.3592ZM23 3.23437C31.51 3.26312 34.845 14.3843 27.7315 19.0526C27.7114 19.0526 27.6927 19.0469 27.6719 19.0469H25.3144L26.5794 12.719C26.6113 12.5547 26.5849 12.3843 26.5047 12.2374C26.4245 12.0904 26.2956 11.976 26.1402 11.9138C25.9847 11.8517 25.8125 11.8457 25.6531 11.8969C25.4937 11.9481 25.3571 12.0533 25.2669 12.1943C25.2382 12.2389 24.5374 13.2969 23 13.2969C21.4784 13.2969 20.7589 12.2331 20.7323 12.1936C20.6424 12.052 20.5059 11.9463 20.3462 11.8948C20.1866 11.8433 20.014 11.8493 19.8583 11.9117C19.7026 11.974 19.5737 12.0889 19.4937 12.2363C19.4138 12.3837 19.3879 12.5545 19.4206 12.719L20.6856 19.0469H18.3281C18.3073 19.0469 18.2886 19.0526 18.2685 19.0526C11.1514 14.3807 14.495 3.26169 23 3.23437Z" fill="#074C3E"/>
+                                    <path d="M33.7554 6.48885L35.3769 5.64073C34.8802 7.59932 35.5436 9.9942 37.089 11.2434C35.4466 12.5688 34.8227 15.1519 35.4646 17.1846L33.6584 16.5542C32.7657 16.2559 32.2963 17.5856 33.1854 17.9112L36.6175 19.1094C37.2521 19.3538 37.858 18.5495 37.4354 18.0075C36.054 16.2466 36.5765 12.7628 38.7256 11.9082C39.3099 11.6912 39.3113 10.7942 38.7256 10.5785C36.5758 9.72323 36.0547 6.23945 37.4354 4.47851C37.8882 3.89632 37.1637 3.05323 36.5204 3.41907L33.0884 5.21595C32.2582 5.65798 32.9195 6.92082 33.7554 6.48885ZM7.27449 11.9082C9.42499 12.7643 9.94537 16.2459 8.56465 18.0075C8.47494 18.1315 8.42707 18.2808 8.42798 18.4337C8.4289 18.5867 8.47856 18.7354 8.56975 18.8583C8.66093 18.9811 8.7889 19.0717 8.93507 19.1168C9.08124 19.162 9.238 19.1594 9.38258 19.1094L12.8146 17.9112C13.7008 17.5849 13.2387 16.2588 12.3417 16.5542L10.5347 17.1846C11.1773 15.1519 10.5534 12.5688 8.91108 11.2434C10.4564 9.9942 11.1198 7.59932 10.6231 5.64001L12.2446 6.48885C13.0877 6.91435 13.7418 5.66732 12.9116 5.21595L9.4789 3.41907C8.8349 3.0561 8.11112 3.89345 8.56465 4.47851C9.94608 6.23945 9.42427 9.72323 7.27449 10.5778C6.69015 10.7934 6.68871 11.6926 7.27449 11.9082Z" fill="#074C3E"/>
+                                </svg>                            
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title"><a href="service-details.html">Property Loan</a></h4>
+                                <p class="fs-small">Provide informative articles, guides, and resources to educate users about different types of loans</p>
+                                <a href="service-details.html" class="btn_theme social_box btn_bg_white"><i class="bi bi-arrow-up-right"></i><span></span></a>
+                            </div>
+                        </div>
+                        <div class="card card--custom">
+                            <div class="card__icon">
+                                <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M35.2188 22.6406H31.1866C30.2428 22.6564 30.2407 24.0616 31.1866 24.0781H35.2188C36.8043 24.0781 38.0938 25.3676 38.0938 26.9531V32.7031H33.0625C32.8719 32.7031 32.6891 32.7788 32.5543 32.9136C32.4195 33.0484 32.3438 33.2313 32.3438 33.4219V34.8594C32.2999 36.7518 29.5191 36.7583 29.4688 34.8594V33.4219C29.4688 33.2313 29.393 33.0484 29.2582 32.9136C29.1234 32.7788 28.9406 32.7031 28.75 32.7031H23.7188C23.7029 31.758 22.2971 31.7587 22.2812 32.7031H17.9688C18.4122 27.9227 11.7774 27.9277 12.2188 32.7031H7.90625V26.9531C7.90625 25.3676 9.19569 24.0781 10.7812 24.0781H14.8134C15.0041 24.0781 15.1869 24.0024 15.3217 23.8676C15.4565 23.7328 15.5322 23.55 15.5322 23.3594C15.5322 23.1688 15.4565 22.9859 15.3217 22.8511C15.1869 22.7163 15.0041 22.6406 14.8134 22.6406H10.7812C8.40291 22.6406 6.46875 24.5748 6.46875 26.9531V39.8906C6.46875 42.269 8.40291 44.2031 10.7812 44.2031H35.2188C37.5971 44.2031 39.5312 42.269 39.5312 39.8906V26.9531C39.5312 24.5748 37.5971 22.6406 35.2188 22.6406ZM22.2812 42.7656H10.7812C9.19569 42.7656 7.90625 41.4762 7.90625 39.8906V34.1406H12.9375C13.1281 34.1406 13.3109 34.0649 13.4457 33.9301C13.5805 33.7953 13.6562 33.6125 13.6562 33.4219V31.9844C13.703 30.0912 16.4845 30.0876 16.5312 31.9844V33.4219C16.5312 33.6125 16.607 33.7953 16.7418 33.9301C16.8766 34.0649 17.0594 34.1406 17.25 34.1406H22.2812V35.5781C17.5008 35.1397 17.5052 41.7738 22.2812 41.3281V42.7656ZM38.0938 39.8906C38.0938 41.4762 36.8043 42.7656 35.2188 42.7656H23.7188V40.6094C23.7188 40.4188 23.643 40.2359 23.5082 40.1011C23.3734 39.9663 23.1906 39.8906 23 39.8906H21.5625C20.7862 39.9086 20.1106 39.2222 20.125 38.4531C20.125 37.6603 20.7697 37.0156 21.5625 37.0156H23C23.1906 37.0156 23.3734 36.9399 23.5082 36.8051C23.643 36.6703 23.7188 36.4875 23.7188 36.2969V34.1406H28.0312C27.5943 38.9232 34.2276 38.9167 33.7812 34.1406H38.0938V39.8906Z" fill="#074C3E"/>
+                                    <path d="M16.675 19.6815C15.5883 20.5491 15.5343 22.4307 16.5729 23.3594C14.9637 24.8472 16.1115 27.72 18.3281 27.6719H19.4062C19.5759 32.43 26.4263 32.4257 26.5937 27.6719H27.6719C29.8892 27.7207 31.0356 24.8472 29.4271 23.3594C30.4657 22.43 30.4117 20.5491 29.3243 19.6815C36.657 13.7971 32.4307 1.79616 23 1.79688C13.57 1.79616 9.34375 13.7986 16.6764 19.6815H16.675ZM23 29.8281C21.8112 29.8281 20.8437 28.8607 20.8437 27.6719H25.1562C25.1562 28.8607 24.1888 29.8281 23 29.8281ZM27.6719 26.2344H18.3281C16.9143 26.2099 16.9093 24.1033 18.3281 24.0781H27.6719C29.0857 24.1026 29.0907 26.2092 27.6719 26.2344ZM27.6719 22.6406H18.3281C16.9143 22.6162 16.9093 20.5095 18.3281 20.4844H27.6719C29.0857 20.5088 29.0907 22.6155 27.6719 22.6406ZM21.2146 14.3592C22.1346 14.8451 23.8647 14.8451 24.7847 14.3642L23.8488 19.0469H22.1512L21.2146 14.3592ZM23 3.23437C31.51 3.26312 34.845 14.3843 27.7315 19.0526C27.7114 19.0526 27.6927 19.0469 27.6719 19.0469H25.3144L26.5794 12.719C26.6113 12.5547 26.5849 12.3843 26.5047 12.2374C26.4245 12.0904 26.2956 11.976 26.1402 11.9138C25.9847 11.8517 25.8125 11.8457 25.6531 11.8969C25.4937 11.9481 25.3571 12.0533 25.2669 12.1943C25.2382 12.2389 24.5374 13.2969 23 13.2969C21.4784 13.2969 20.7589 12.2331 20.7323 12.1936C20.6424 12.052 20.5059 11.9463 20.3462 11.8948C20.1866 11.8433 20.014 11.8493 19.8583 11.9117C19.7026 11.974 19.5737 12.0889 19.4937 12.2363C19.4138 12.3837 19.3879 12.5545 19.4206 12.719L20.6856 19.0469H18.3281C18.3073 19.0469 18.2886 19.0526 18.2685 19.0526C11.1514 14.3807 14.495 3.26169 23 3.23437Z" fill="#074C3E"/>
+                                    <path d="M33.7554 6.48885L35.3769 5.64073C34.8802 7.59932 35.5436 9.9942 37.089 11.2434C35.4466 12.5688 34.8227 15.1519 35.4646 17.1846L33.6584 16.5542C32.7657 16.2559 32.2963 17.5856 33.1854 17.9112L36.6175 19.1094C37.2521 19.3538 37.858 18.5495 37.4354 18.0075C36.054 16.2466 36.5765 12.7628 38.7256 11.9082C39.3099 11.6912 39.3113 10.7942 38.7256 10.5785C36.5758 9.72323 36.0547 6.23945 37.4354 4.47851C37.8882 3.89632 37.1637 3.05323 36.5204 3.41907L33.0884 5.21595C32.2582 5.65798 32.9195 6.92082 33.7554 6.48885ZM7.27449 11.9082C9.42499 12.7643 9.94537 16.2459 8.56465 18.0075C8.47494 18.1315 8.42707 18.2808 8.42798 18.4337C8.4289 18.5867 8.47856 18.7354 8.56975 18.8583C8.66093 18.9811 8.7889 19.0717 8.93507 19.1168C9.08124 19.162 9.238 19.1594 9.38258 19.1094L12.8146 17.9112C13.7008 17.5849 13.2387 16.2588 12.3417 16.5542L10.5347 17.1846C11.1773 15.1519 10.5534 12.5688 8.91108 11.2434C10.4564 9.9942 11.1198 7.59932 10.6231 5.64001L12.2446 6.48885C13.0877 6.91435 13.7418 5.66732 12.9116 5.21595L9.4789 3.41907C8.8349 3.0561 8.11112 3.89345 8.56465 4.47851C9.94608 6.23945 9.42427 9.72323 7.27449 10.5778C6.69015 10.7934 6.68871 11.6926 7.27449 11.9082Z" fill="#074C3E"/>
+                                </svg>                            
+                            </div>
+                            <div class="card__content">
+                                <h4 class="card__title"><a href="service-details.html">Mortgage Loan</a></h4>
+                                <p class="fs-small">Provide informative articles, guides, and resources to educate users about different types of loans</p>
+                                <a href="service-details.html" class="btn_theme social_box btn_bg_white"><i class="bi bi-arrow-up-right"></i><span></span></a>
+                            </div>
+                        </div>
                         
                     </div>
                 </div>
@@ -303,7 +316,7 @@
                                 <li><i class="bi bi-check2-circle"></i> Trusted User Reviews</li>
                             </ul>
                         </div>
-                        <a href="service-details.html" class="btn_theme btn_theme_active mt_40">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
+                        <a href="./contact.html" class="btn_theme btn_theme_active mt_40">Contact Us<i class="bi bi-arrow-up-right"></i><span></span></a>
                     </div>
                 </div>
             </div>
@@ -325,7 +338,7 @@
                                     <div class="loan-reviews_card card wow fadeInUp" data-wow-duration="0.8s">
                                         <div class="loan-reviews__part-one">
                                             <div class="loan-reviews__thumb">
-                                                <img src="assets/images/loan_reviews_logo.png" alt="image">
+                                                <img src="assets/images/loan_reviews_logo6.png" alt="image">
                                             </div>
                                             <div class="loan-reviews__review">
                                                 <p class="rating"> 4.9</p>
@@ -344,7 +357,7 @@
                                         <div class="loan-reviews__part-two">
                                             <div class="reviews-heading">
                                                 <h4 class="reviews-heading__title">Home Loans</h4>
-                                                <p class="reviews-heading__content">America’s Largest online mortgage lender</p>
+                                                <!-- <p class="reviews-heading__content">America’s Largest online mortgage lender</p> -->
                                             </div>
                                             <div class="reviews-inner">
                                                 <ul>
@@ -357,9 +370,9 @@
                                         </div>
                                         <div class="loan-reviews__part-three">
                                             <div class="btn-group">
-                                                <a href="#" class="btn_theme btn_theme_active">Visit Site<i class="bi bi-arrow-up-right"></i><span></span></a>
-                                                <a href="loan-reviews-details.html" class="btn_theme">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
-                                                <a href="faq.html" class="conditions_apply"> Terms & Conditions Apply</a>
+                                                <!-- <a href="#" class="btn_theme btn_theme_active">Visit Site<i class="bi bi-arrow-up-right"></i><span></span></a> -->
+                                                <a href="loan-reviews.html" class="btn_theme">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
+                                                <a href="" class="conditions_apply"> Terms & Conditions Apply</a>
                                             </div>
                                         </div>
                                     </div>
@@ -386,7 +399,7 @@
                                         <div class="loan-reviews__part-two">
                                             <div class="reviews-heading">
                                                 <h4 class="reviews-heading__title">Business Loans</h4>
-                                                <p class="reviews-heading__content">Japanes Largest online mortgage lender</p>
+                                                <!-- <p class="reviews-heading__content">Japanes Largest online mortgage lender</p> -->
                                             </div>
                                             <div class="reviews-inner">
                                                 <ul>
@@ -399,16 +412,16 @@
                                         </div>
                                         <div class="loan-reviews__part-three">
                                             <div class="btn-group">
-                                                <a href="#" class="btn_theme btn_theme_active">Visit Site<i class="bi bi-arrow-up-right"></i><span></span></a>
-                                                <a href="loan-reviews-details.html" class="btn_theme">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
-                                                <a href="faq.html" class="conditions_apply"> Terms & Conditions Apply</a>
+                                                <!-- <a href="#" class="btn_theme btn_theme_active">Visit Site<i class="bi bi-arrow-up-right"></i><span></span></a> -->
+                                                <a href="loan-reviews.html" class="btn_theme">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
+                                                <a href="" class="conditions_apply"> Terms & Conditions Apply</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="loan-reviews_card card wow fadeInUp" data-wow-duration="0.8s">
                                         <div class="loan-reviews__part-one">
                                             <div class="loan-reviews__thumb">
-                                                <img src="assets/images/loan_reviews_logo4.png" alt="image">
+                                                <img src="assets/images/piramal.png" alt="image">
                                             </div>
                                             <div class="loan-reviews__review">
                                                 <p class="rating"> 4.9</p>
@@ -427,7 +440,7 @@
                                         <div class="loan-reviews__part-two">
                                             <div class="reviews-heading">
                                                 <h4 class="reviews-heading__title">Personal Loans</h4>
-                                                <p class="reviews-heading__content">America’s Largest online mortgage lender</p>
+                                                <!-- <p class="reviews-heading__content">America’s Largest online mortgage lender</p> -->
                                             </div>
                                             <div class="reviews-inner">
                                                 <ul>
@@ -440,9 +453,9 @@
                                         </div>
                                         <div class="loan-reviews__part-three">
                                             <div class="btn-group">
-                                                <a href="#" class="btn_theme btn_theme_active">Visit Site<i class="bi bi-arrow-up-right"></i><span></span></a>
-                                                <a href="loan-reviews-details.html" class="btn_theme">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
-                                                <a href="faq.html" class="conditions_apply"> Terms & Conditions Apply</a>
+                                                <!-- <a href="#" class="btn_theme btn_theme_active">Visit Site<i class="bi bi-arrow-up-right"></i><span></span></a> -->
+                                                <a href="loan-reviews.html" class="btn_theme">Read More<i class="bi bi-arrow-up-right"></i><span></span></a>
+                                                <a href="" class="conditions_apply"> Terms & Conditions Apply</a>
                                             </div>
                                         </div>
                                     </div>
@@ -563,7 +576,7 @@
 
 
     <!-- About Us start -->
-    <section class="about-us section">
+    <section class="about-us section" id="about-section">
         <div class="animation">
             <img src="assets/images/hero_vector_dollar.png" alt="Image">
             <img src="assets/images/hero_vector_message.png" alt="Image">
@@ -686,7 +699,7 @@
                                                 <div class="calculate__form-part">
                                                     <div class="input-single">
                                                         <label class="label" for="amount">Loan Amount <span>(required)</span></label>
-                                                        <input type="number" class="form-control" name="amount" id="amount" placeholder="$0" required>
+                                                        <input type="number" class="form-control" name="amount" id="amount" placeholder="₹0" required>
                                                     </div>
                                                     <div class="input-single">
                                                         <label class="label" for="year">Loan Term <span>(years)</span></label>
@@ -703,7 +716,7 @@
                                                 <div class="calculate__form-part">
                                                     <div class="input-single">
                                                         <label class="label" for="amount2">Loan Amount <span>(required)</span></label>
-                                                        <input type="number" class="form-control" name="amount2" id="amount2" placeholder="$0" required>
+                                                        <input type="number" class="form-control" name="amount2" id="amount2" placeholder="₹0" required>
                                                     </div>
                                                     <div class="input-single">
                                                         <label class="label" for="year2">Loan Term <span>(years)</span></label>
@@ -717,7 +730,7 @@
                                             </div>
                                         </div>
                                         <span id="CalcMsg"></span> 
-                                        <button type="submit" class="btn_theme btn_theme_active mt_40" name="calc_submit" id="calc_submit">Read More <i class="bi bi-arrow-up-right"></i><span></span></button>
+                                        <button type="submit" class="btn_theme btn_theme_active mt_40" name="calc_submit" id="calc_submit">Calculate <i class="bi bi-arrow-up-right"></i><span></span></button>
                                     </form>
                                 </div>
                             </div>
@@ -755,8 +768,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-12 mt_32">
-                                                <p class="note"><span class="">MORE:</span> Learn about the pros and cons of a shorter-term mortgage or how to get preapproved for a mortgage.</p>
-                                                <a href="about.html" class="btn_theme btn_theme_active mt_40">Back <i class="bi bi-arrow-up-right"></i><span></span></a>
+                                                <!-- <p class="note"><span class="">MORE:</span> Learn about the pros and cons of a shorter-term mortgage or how to get preapproved for a mortgage.</p> -->
+                                                <a href="/" class="btn_theme btn_theme_active mt_40">Back <i class="bi bi-arrow-up-right"></i><span></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1050,35 +1063,56 @@
     <!-- faq end -->
 
     <!-- Footer Area Start -->
-    <footer class="footer footer-secondary">
+    <footer class="footer">
         <div class="container">
-            <div class="row section">
-                <div class="col-12">
-                    <div class="footer-secondary__content">
-                        <div class="footer__logo">
+            <div class="row section gy-5 gy-xl-0">
+                <div class="col-12 col-sm-6 col-xl-4">
+                    <div class="about-company wow fadeInLeft" data-wow-duration="0.8s">
+                        <div class="footer__logo mb-4">
                             <a href="index.html">
                                 <img src="assets/images/logo.png" alt="Logo">
                             </a>
                         </div>
-                        <div class="quick-link order-1 order-lg-0">
-                            <ul class="quick-link__list">
-                                <li><a href="contact.html">Help & Support</a></li>
-                                <li><a href="loan-reviews.html">Privacy policy</a></li>
-                                <li><a href="loan-comparison.html">Terms & Conditions</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                            </ul>
-                        </div>
-                        <div class="social">
+                        <p>Welcome to Rana Finance, your trusted resource for financial loan. Our dedicated team of experts analyzes various loan</p>
+                        <div class="social mt_32">
                             <a href="#" class="btn_theme social_box"><i class="bi bi-facebook"></i><span></span></a>
                             <a href="#" class="btn_theme social_box"><i class="bi bi-twitter"></i><span></span></a>
                         </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4">
+                    <div class="footer__contact ms-sm-4 ms-xl-0 wow fadeInUp" data-wow-duration="0.8s">
+                        <h4 class="footer__title mb-4">Contact</h4>
+                        <div class="footer__content">
+                            <a href="tel:+8298046455"> <span class="btn_theme social_box"> <i class="bi bi-telephone-plus"></i> </span> 82980 46455 <span></span> </a> 
+                            <a href="mailto:mukundrana49@gmail.com"> <span class="btn_theme social_box"> <i class="bi bi-envelope-open"></i> </span>  <span>mukundrana49@gmail.com</span> </a> 
+                            <a href="#"> <span class="btn_theme social_box"> <i class="bi bi-geo-alt"></i> </span> Shop No. 06 C Wing Shree Krishna Apt Suresh Nagar Mumbra Devi Colony Road Diva East Thane, Mumbai, Maharashtra 400612<span></span> </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-12 col-sm-6 col-xl-4">
+                    <div class="quick-link ms-sm-4 ms-xl-0 wow fadeInRight" data-wow-duration="0.8s">
+                        <h4 class="footer__title mb-4">Quick Link</h4>
+                        <ul>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="loan-reviews.html">Loan Reviews</a></li>
+                            <li><a href="loan-comparison.html">Loan Comparison</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="footer__copyright">
-                        <p class="copyright text-center">Copyright © <span id="copyYear"></span> <a href="#" class="secondary_color">RANA FINANCE</a>. Designed By <a href="https://ranaport.netlify.app/" class="secondary_color">Rana</a></p>
+                        <p class="copyright text-center">Copyright © <span id="copyYear"></span> <a href="#" class="secondary_color"> RANA FINANCE</a>. Designed By <a href="https://ranaport.netlify.app/" class="secondary_color">Rana</a></p>
+                        <ul class="footer__copyright-conditions">
+                            <li><a href="contact.html">Help & Support</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
